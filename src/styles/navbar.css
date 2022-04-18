@@ -1,0 +1,107 @@
+.navbar{
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    max-height: 50px;
+    position: -webkit-sticky; 
+    position: sticky;
+    background-color: black;
+}
+.navbar .leftSide{
+    flex: 50%;
+    height: 100%;
+    display:flex;
+    align-items:center;
+    padding-left:150px;
+}
+.navbar .leftSide img{
+    width: 50px;
+    height: 50px;
+}
+.navbar .rightSide{
+    flex: 50%;
+    height: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 10px;
+}
+.navbar .rightSide button {
+    background-color:transparent;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+.navbar #open {
+    padding-left: 0px;
+}
+.navbar #open img {
+    display: none;
+
+}
+.navbar #close img {
+    display: inherit;
+    
+}
+
+.navbar #open .hiddenLinks{
+    display: inherit;
+    margin-left: 30px;
+}
+.navbar #close .hiddenLinks{
+    display: none !important;
+}
+
+.navbar #open a {
+    
+    flex: 50%;
+    height: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    
+
+}
+@media only screen and (max-width: 900px) {
+    .navbar .rightSide a {
+        width: 70px;
+    }
+    .navbar .leftSide{
+        padding-left:50px;
+    }
+    
+}
+@media only screen and (max-width: 600px){
+    .navbar {
+        background-color: black;
+        
+    }
+    .navbar .rightSide a{
+        display:none;
+        
+    }
+    .navbar .rightSide{
+        justify-content: flex-end;
+        background-color: black;
+        padding-right: 50px;
+    }
+    .navbar .rightSide button{
+        display: inherit;
+        background-color: black;
+    }
+}
+@media only screen and (min-width:600px) {
+    .navbar .rightSide button {
+        display: none;
+    }
+    .hiddenLinks{
+        display:none;
+    }
+}
+
