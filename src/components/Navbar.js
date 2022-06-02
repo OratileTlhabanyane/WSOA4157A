@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Logo from '../assets/LOGO.png';
+import Logo from '../assets/Logo2.png';
 import {Link} from 'react-router-dom' //Link is the react version of <a href =''></a>
 import "../styles/navbar.css"
 import ReorderIcon from '@mui/icons-material/Reorder';

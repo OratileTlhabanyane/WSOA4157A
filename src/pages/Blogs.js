@@ -7,23 +7,37 @@ import BlogsItem from '../components/BlogsItem.js';
 import BlogsImage from '../assets/michael-benz-IgWNxx7paz4-unsplash.jpg';
 import {Link} from 'react-router-dom';
 import "../styles/Blogs.css";
+import Popup from '../components/Popup';
+import {useState, useRef} from 'react';
+import Blog1 from '../pages/Blog1';
 
-export default class Blogs extends Component {
-  render() {
+
+const Blogs = () => { 
+
+    const [buttonPopup,setButtonPopup] = useState(false);
+
     return (
+      
+    
       <div className="blogs"style= {{backgroundImage: `url(${BlogsImage})`}}>
-        <h1 className="blogTitle"> Blogs </h1>
+        <h1 className="blogTitle"> Blogs  </h1>
         <div className="blogContainer">
-            <Link to ='/Blog1'>
-              <button>   <div>
+   
+      
+          <Link to ="/Blog1">
+            <button onClick={setButtonPopup} >
+                <div > 
           {Blogs1.map((blogsItem, value) => {
             return (
               <BlogsItem value = {value} name= {blogsItem.name} image= {blogsItem.image}/>
             )
           })}
+       
+          
         </div>
         </button>
-            </Link> 
+        </Link>
+  
             <Link to ='/Blog2'>
               <button>   <div>
           {Blogs2.map((blogsItem, value) => {
@@ -60,4 +74,6 @@ export default class Blogs extends Component {
       </div>
     )
   }
-}
+  export default Blogs;
+
+
