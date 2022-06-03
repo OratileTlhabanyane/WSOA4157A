@@ -3,7 +3,7 @@ import Blog2 from '../assets/michal-zaruba-MwgMmgEdUbk-unsplash.jpg';
 import Blog3 from '../assets/tamara-malaniy-9Jy0asiYfBQ-unsplash.jpg';
 import Blog4 from '../assets/naomi-tamar-u1iIIQwtRqU-unsplash.jpg';
 import Blog5 from '../assets/animal1.jpg';
-import Blog6 from '../assets/animal3.png.jpg';
+import Blog6 from '../assets/animal3.jpg';
 
 export const Blogs1 = [
     {

@@ -6,6 +6,7 @@
     position: -webkit-sticky; 
     position: sticky;
     background-color: black;
+    
 }
 .navbar .leftSide{
     flex: 50%;

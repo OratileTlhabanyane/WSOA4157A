@@ -238,6 +238,31 @@ function App() {
       <br/>
       <br/>
       <br/>
+      <div  ref={blogg6}>
+        <Blog6/>
+        </div>
+        <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
 
       
     
