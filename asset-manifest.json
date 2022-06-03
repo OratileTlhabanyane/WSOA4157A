@@ -1,23 +1,28 @@
 {
   "files": {
-    "main.css": "/WSOA4157A/static/css/main.e6be9851.css",
-    "main.js": "/WSOA4157A/static/js/main.e40bb3b2.js",
-    "static/js/787.8e1d50b9.chunk.js": "/WSOA4157A/static/js/787.8e1d50b9.chunk.js",
+    "main.css": "/WSOA4157A/static/css/main.274dd02d.css",
+    "main.js": "/WSOA4157A/static/js/main.4c63d5f1.js",
+    "static/js/787.21d17fcb.chunk.js": "/WSOA4157A/static/js/787.21d17fcb.chunk.js",
+    "static/media/video2.mp4": "/WSOA4157A/static/media/video2.11c73f5f79709b82aaaf.mp4",
+    "static/media/video3.mp4": "/WSOA4157A/static/media/video3.394ed4a43c233f7e7ff9.mp4",
     "static/media/tamara-malaniy-9Jy0asiYfBQ-unsplash.jpg": "/WSOA4157A/static/media/tamara-malaniy-9Jy0asiYfBQ-unsplash.5ab563e63e117f892712.jpg",
     "static/media/michael-benz-IgWNxx7paz4-unsplash.jpg": "/WSOA4157A/static/media/michael-benz-IgWNxx7paz4-unsplash.a6ae2bd66e10bcd09c15.jpg",
     "static/media/mathieu-chirico-CfXZS5mFQhY-unsplash.jpg": "/WSOA4157A/static/media/mathieu-chirico-CfXZS5mFQhY-unsplash.2e2d423b6a25dff25abc.jpg",
     "static/media/michal-zaruba-MwgMmgEdUbk-unsplash.jpg": "/WSOA4157A/static/media/michal-zaruba-MwgMmgEdUbk-unsplash.13eeafc588c6a61d4359.jpg",
     "static/media/matty-adame-MSD_DtDcCQo-unsplash.jpg": "/WSOA4157A/static/media/matty-adame-MSD_DtDcCQo-unsplash.f6aadcc6f7cecd22b922.jpg",
+    "static/media/video.mp4": "/WSOA4157A/static/media/video.dc1dae62e1c22de8921b.mp4",
     "static/media/naomi-tamar-u1iIIQwtRqU-unsplash.jpg": "/WSOA4157A/static/media/naomi-tamar-u1iIIQwtRqU-unsplash.a2f63dae5a28c1b7a44b.jpg",
     "static/media/Screenshot.png": "/WSOA4157A/static/media/Screenshot.172aa218a2c9bdb1a338.png",
-    "static/media/LOGO.png": "/WSOA4157A/static/media/LOGO.d0cf111de0c4ed7abf73.png",
+    "static/media/animal3.png.jpg": "/WSOA4157A/static/media/animal3.png.731bf6deaafde388142b.jpg",
+    "static/media/animal1.jpg": "/WSOA4157A/static/media/animal1.980427d397eb086087da.jpg",
+    "static/media/Logo2.png": "/WSOA4157A/static/media/Logo2.129e671d44eb54983bc4.png",
     "index.html": "/WSOA4157A/index.html",
-    "main.e6be9851.css.map": "/WSOA4157A/static/css/main.e6be9851.css.map",
-    "main.e40bb3b2.js.map": "/WSOA4157A/static/js/main.e40bb3b2.js.map",
-    "787.8e1d50b9.chunk.js.map": "/WSOA4157A/static/js/787.8e1d50b9.chunk.js.map"
+    "main.274dd02d.css.map": "/WSOA4157A/static/css/main.274dd02d.css.map",
+    "main.4c63d5f1.js.map": "/WSOA4157A/static/js/main.4c63d5f1.js.map",
+    "787.21d17fcb.chunk.js.map": "/WSOA4157A/static/js/787.21d17fcb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6be9851.css",
-    "static/js/main.e40bb3b2.js"
+    "static/css/main.274dd02d.css",
+    "static/js/main.4c63d5f1.js"
   ]
 }
