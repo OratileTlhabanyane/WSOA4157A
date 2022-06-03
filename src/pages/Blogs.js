@@ -14,8 +14,6 @@ import Blog1 from '../pages/Blog1';
 
 const Blogs = () => { 
 
-    const [buttonPopup,setButtonPopup] = useState(false);
-
     return (
       
     
@@ -24,8 +22,8 @@ const Blogs = () => {
         <div className="blogContainer">
    
       
-          <Link to ="/Blog1">
-            <button onClick={setButtonPopup} >
+          <Link to ='/Blog1'>
+            <button  >
                 <div > 
           {Blogs1.map((blogsItem, value) => {
             return (

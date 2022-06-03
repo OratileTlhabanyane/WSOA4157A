@@ -15,7 +15,7 @@ import Blog1 from './pages/Blog1';
 import Blog2 from './pages/Blog2';
 import Blog3 from './pages/Blog3';
 import Blog4 from './pages/Blog4';
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import Logo from './assets/Logo2.png';
 import {Link} from 'react-router-dom'; //Link is the react version of <a href =''></a>
 import "./styles/navbar.css";
@@ -33,6 +33,7 @@ function App() {
   const Blogss = useRef (null);
   const Designn = useRef (null);
   const Contactt = useRef (null);
+
   const blogg1 = useRef (null);
   const blogg2 = useRef (null);
   const blogg3 = useRef (null);
@@ -60,37 +61,35 @@ function App() {
         openLinks : !prevState.openLinks
       }));
     }
-  
     render() { //"this.state.openLinks ? "open" :"close"  " translates to if the openLinks state is true(?) then go to ID css called open and do what is stated otherwise(:) do ID css close says
     
       return (
+        
        
         <div className="navbar">
-            <div className="leftSide" id={this.state.openLinks ? "open" :"close" }>
-                <img src={Logo}/>
-                <div className="hiddenLinks">
-                <Link onClick={() => scrollToSection(Homepagee)} >Home</Link>
-                <Link onClick={() => scrollToSection(Aboutt)} > About</Link>
-                <Link onClick={() => scrollToSection(Blogss)} > Blogs</Link>
-                <Link onClick={() => scrollToSection(Designn)} > Design</Link>
-                <Link onClick={() => scrollToSection(Contactt)} > Contact</Link>
-                </div>
+        <div className="leftSide" id={this.state.openLinks ? "open" :"close" }>
+            <img src={Logo}/>
+            <div className="hiddenLinks">
+            <Link to ='/'>Home</Link>
+            <Link to ='/about'> About</Link>
+            <Link to ='/blogs'> Blogs</Link>
+            <Link to ='/design'> Design</Link>
+            <Link to ='/contact'> Contact</Link>
             </div>
+        </div>
   
-            <div className="rightSide">
-                <Link onClick={() => scrollToSection(Homepagee)} exact path='/' >Home</Link>
-                <Link onClick={() => scrollToSection(Aboutt)} > About</Link>
-                <Link onClick={() => scrollToSection(Blogss)} > Blogs</Link>
-                <Link onClick={() => scrollToSection(Designn)} > Design</Link>
-                <Link onClick={() => scrollToSection(Contactt)} > Contact</Link>
+        <div className="rightSide">
+              <Link to ='/'>Home</Link>
+              <Link to ='/about'> About</Link>
+              <Link to ='/blogs'> Blogs</Link>
+              <Link to ='/design'> Design</Link>
+              <Link to ='/contact'> Contact</Link>
 
-                <button onClick = {this.toggleNav}><ReorderIcon/></button>
-           </div>
-         
-            
-        </div> 
-        
-  
+          <button  onClick = {this.toggleNav}><ReorderIcon/></button>
+          </div> 
+          
+      </div>
+   
         //the hamburger is a button that will be togglng between the states of being visible and not visible when clicking
       )
     }
@@ -99,24 +98,17 @@ function App() {
 
   return (
     <div className="App"> 
-      <Navbar/>
+      <Navbar />
       <ScrollToHome/>
       <Switch>
-      <Route exact path='/' component ={Home}/>
-        <Route onClick={() => scrollToSection(blogg1)} />
-        <Route onClick={() => scrollToSection(blogg2)}/>
-        <Route onClick={() => scrollToSection(blogg3)}/>
-        <Route onClick={() => scrollToSection(blogg4)}/>
+      <Route onClick={() => scrollToSection(Homepagee)} component ={Home}/>
+        <Route onClick={() => scrollToSection(blogg1)} component={Blog1} />
+        <Route onClick={() => scrollToSection(blogg2)} component={Blog2}/>
+        <Route onClick={() => scrollToSection(blogg3)} component={Blog3}/>
+        <Route onClick={() => scrollToSection(blogg4)} component={Blog4}/>
       </Switch>
     
-    
- 
-        
-
-
-      <div  ref={Homepagee}>
-        <Home />
-      </div>
+  
         <Part1/>
         <Part2/>
       <div  ref={Aboutt}>

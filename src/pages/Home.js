@@ -11,6 +11,7 @@ export default class Home extends Component {
       <div className="home" >
           <video src={video} autoPlay muted/> 
           <div className="headerContainer">
+            
           
           <button type='button'> ENTER THE OCEAN</button>
             

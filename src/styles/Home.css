@@ -11,6 +11,7 @@ video {
 body{
   min-height: 100vh;
   background:black;
+  overflow-x: hidden;
   
 }
 .home{
@@ -75,6 +76,11 @@ body{
         align-items: center;
 
     }
+    video {
+      width: 100%; 
+      height: 100%;
+      object-fit: cover;
+   }
     
     .headerContainer {
         margin-left: 0px;
