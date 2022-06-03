@@ -5,7 +5,7 @@ import Blog3Image from '../assets/tamara-malaniy-9Jy0asiYfBQ-unsplash.jpg';
 import Image from '../assets/Screenshot.png';
 
 
-export default class Blog2 extends Component {
+export default class Blog3 extends Component {
   render() {
     return (
         <div className="blog"> 

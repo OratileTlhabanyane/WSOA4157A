@@ -10,11 +10,13 @@ import Footer from './components/Footer.js';
 import Blogs from './pages/Blogs.js';
 import About from './pages/About.js';
 import Design from './pages/Design';
-import Contact from './pages/Contact.js';
+import InternetArtwork from './pages/InternetArtwork.js';
 import Blog1 from './pages/Blog1';
 import Blog2 from './pages/Blog2';
 import Blog3 from './pages/Blog3';
 import Blog4 from './pages/Blog4';
+import Blog5 from './pages/Blog5';
+import Blog6 from './pages/Blog6';
 import React, { Component } from 'react';
 import Logo from './assets/Logo2.png';
 import {Link} from 'react-router-dom'; //Link is the react version of <a href =''></a>
@@ -32,12 +34,14 @@ function App() {
   const Aboutt = useRef (null);
   const Blogss = useRef (null);
   const Designn = useRef (null);
-  const Contactt = useRef (null);
+  const InternetArtworkk = useRef (null);
 
   const blogg1 = useRef (null);
   const blogg2 = useRef (null);
   const blogg3 = useRef (null);
   const blogg4 = useRef (null);
+  const blogg5 = useRef (null);
+  const blogg6 = useRef (null);
 
   const scrollToSection = (elementRef) => {
     window.scrollTo({
@@ -74,7 +78,7 @@ function App() {
             <Link onClick={() => scrollToSection(Aboutt)}> About</Link>
             <Link onClick={() => scrollToSection(Blogss)}> Blogs</Link>
             <Link onClick={() => scrollToSection(Designn)}> Design</Link>
-            <Link onClick={() => scrollToSection(Contactt)}> Contact</Link>
+            <Link onClick={() => scrollToSection(InternetArtworkk)}> InternetArtwork</Link>
             </div>
         </div>
   
@@ -83,7 +87,7 @@ function App() {
             <Link onClick={() => scrollToSection(Aboutt)}> About</Link>
             <Link onClick={() => scrollToSection(Blogss)}> Blogs</Link>
             <Link onClick={() => scrollToSection(Designn)}> Design</Link>
-            <Link onClick={() => scrollToSection(Contactt)}> Contact</Link>
+            <Link onClick={() => scrollToSection(InternetArtworkk)}> InternetArtwork</Link>
           <button type="button" onClick = {this.toggleNav}><ReorderIcon/></button>
           </div> 
           
@@ -198,12 +202,50 @@ function App() {
       <br/>
       <br/>
       <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <div  ref={blogg5}>
+        <Blog5/>
+        </div>
+        <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+
+      
     
       <div  ref={Designn}>
         <Design />
       </div>
-      <div  ref={Contactt}>
-        <Contact />
+      <div  ref={InternetArtworkk}>
+        <InternetArtwork />
       </div>
 
       <Footer />
@@ -213,6 +255,7 @@ function App() {
   );
   
 }
+
 //navbar is not be part of rerouting and it is is going to stand by its on
 
 export default App;
