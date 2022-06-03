@@ -1,4 +1,3 @@
-
 .navbar{
     display: flex; 
     justify-content: space-around;
@@ -7,7 +6,6 @@
     position: -webkit-sticky; 
     position: sticky;
     background-color: black;
-   
 }
 .navbar .leftSide{
     flex: 50%;
@@ -80,19 +78,22 @@
     
 }
 @media only screen and (max-width: 600px){
-   
+    .navbar {
+        background-color: black;
+        
+    }
     .navbar .rightSide a{
         display:none;
         
     }
     .navbar .rightSide{
         justify-content: flex-end;
-      
+        background-color: black;
         padding-right: 50px;
     }
     .navbar .rightSide button{
         display: inherit;
-     
+        background-color: black;
     }
 }
 @media only screen and (min-width:600px) {
@@ -103,4 +104,3 @@
         display:none;
     }
 }
-

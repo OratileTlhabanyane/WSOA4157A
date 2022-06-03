@@ -86,7 +86,10 @@ html{
       font-size:7px;
     }
   
-   
+    .opp button:hover {
+      background-color: rgb(39, 38, 38);
+      color: white;
+    }
   }
 
 

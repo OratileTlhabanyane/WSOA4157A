@@ -22,19 +22,16 @@ const Blogs = () => {
         <div className="blogContainer">
    
       
-          <Link to ='/Blog1'>
-            <button  >
-                <div > 
+        <Link >
+              <button>   <div>
           {Blogs1.map((blogsItem, value) => {
             return (
               <BlogsItem value = {value} name= {blogsItem.name} image= {blogsItem.image}/>
             )
           })}
-       
-          
         </div>
         </button>
-        </Link>
+            </Link>
   
             <Link to ='/Blog2'>
               <button>   <div>

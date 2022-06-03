@@ -70,22 +70,21 @@ function App() {
         <div className="leftSide" id={this.state.openLinks ? "open" :"close" }>
             <img src={Logo}/>
             <div className="hiddenLinks">
-            <Link to ='/'>Home</Link>
-            <Link to ='/about'> About</Link>
-            <Link to ='/blogs'> Blogs</Link>
-            <Link to ='/design'> Design</Link>
-            <Link to ='/contact'> Contact</Link>
+            <Link onClick={() => scrollToSection(Homepagee)}>Home</Link>
+            <Link onClick={() => scrollToSection(Aboutt)}> About</Link>
+            <Link onClick={() => scrollToSection(Blogss)}> Blogs</Link>
+            <Link onClick={() => scrollToSection(Designn)}> Design</Link>
+            <Link onClick={() => scrollToSection(Contactt)}> Contact</Link>
             </div>
         </div>
   
         <div className="rightSide">
-              <Link to ='/'>Home</Link>
-              <Link to ='/about'> About</Link>
-              <Link to ='/blogs'> Blogs</Link>
-              <Link to ='/design'> Design</Link>
-              <Link to ='/contact'> Contact</Link>
-
-          <button  onClick = {this.toggleNav}><ReorderIcon/></button>
+        <Link onClick={() => scrollToSection(Homepagee)}>Home</Link>
+            <Link onClick={() => scrollToSection(Aboutt)}> About</Link>
+            <Link onClick={() => scrollToSection(Blogss)}> Blogs</Link>
+            <Link onClick={() => scrollToSection(Designn)}> Design</Link>
+            <Link onClick={() => scrollToSection(Contactt)}> Contact</Link>
+          <button type="button" onClick = {this.toggleNav}><ReorderIcon/></button>
           </div> 
           
       </div>
@@ -98,10 +97,13 @@ function App() {
 
   return (
     <div className="App"> 
+    
       <Navbar />
       <ScrollToHome/>
       <Switch>
       <Route onClick={() => scrollToSection(Homepagee)} component ={Home}/>
+      <Route onClick={() => scrollToSection(Aboutt)} component ={About}/>
+      <Route onClick={() => scrollToSection(Blogss)} component ={Blogs}/>
         <Route onClick={() => scrollToSection(blogg1)} component={Blog1} />
         <Route onClick={() => scrollToSection(blogg2)} component={Blog2}/>
         <Route onClick={() => scrollToSection(blogg3)} component={Blog3}/>
