@@ -30,6 +30,7 @@ export default class Navbar extends Component {
               <Link to ='/about'> About</Link>
               <Link to ='/blogs'> Blogs</Link>
               <Link to ='/design'> Design</Link>
+              <Link to ='/internetartwork'> Internet Art</Link>
               <Link to ='/contact'> Contact</Link>
               </div>
           </div>
@@ -39,6 +40,7 @@ export default class Navbar extends Component {
               <Link to ='/about'> About</Link>
               <Link to ='/blogs'> Blogs</Link>
               <Link to ='/design'> Design</Link>
+              <Link to ='/internetartwork'> Internet Art</Link>
               <Link to ='/contact'> Contact</Link>
               <button onClick = {this.toggleNav}><ReorderIcon/></button>
           </div> 

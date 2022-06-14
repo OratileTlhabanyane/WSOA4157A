@@ -7,7 +7,7 @@ export default class Part1 extends Component {
   render() {
     return (
       <div className="home" >
-          <video src={video3} autoPlay loop muted/> 
+       
       </div>
     )
   }
