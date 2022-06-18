@@ -20,8 +20,6 @@ import Blog6 from './pages/Blog6';
 import Contact from './pages/Contact';
 import React, { Component } from 'react';
 
-
-
 class App extends Component {
   render() {
 
@@ -48,8 +46,7 @@ class App extends Component {
 
       <Footer />
     </div>
-    
-
+  
   );
   }
 }

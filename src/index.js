@@ -6,13 +6,9 @@ import {BrowserRouter} from 'react-router-dom'; //importing Browser to wrap the 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-
     <BrowserRouter>
     <App />
     </BrowserRouter>
-    
-
-  
 );
 
 
