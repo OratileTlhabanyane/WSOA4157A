@@ -11,7 +11,7 @@ export default class Blog1 extends Component {
        
       
     <main>
-<element className="parchment"></element>
+<div className="parchment"></div>
 <section className="contain">
 <h1 className="inkTitle">Short Critical Analysis on a Net/Web Artwork</h1>
 <p id="labarum"></p>
@@ -52,7 +52,7 @@ export default class Blog1 extends Component {
 <feDisplacementMap in="SourceGraphic" scale="20" />
 </filter>
 </svg>
-<a href="https://google.com" class="button"><button class="pixel">Button text</button></a>
+<a href="https://google.com" className="button"><button className="pixel">Button text</button></a>
 2
 
     </article>

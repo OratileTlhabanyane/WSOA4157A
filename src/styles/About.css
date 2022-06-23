@@ -1,44 +1,160 @@
-@import url('https://fonts.googleapis.com/css?family=Pirata+One|Bilbo+Swash+Caps&display=swap');
+.section-1{
+  margin-left: 80px;
+  color: white;
+  width:30%;
+  height:30%;
+  background-color: #a01a3e3d;
+  border-radius: 20px;
+}
+.section-2{
+  position: relative;
+  margin-left: 60%;
+  
+  color: white;
+  
+  background-color: #b14461;
+}
+.section-3{
+  position: relative;
 
-.about {
+  background-color:#580f23;
+
+}
+.section-4{
+  position: relative;
+  background-color:#ec668a;
+
+}
+
+.about img{
   width:100%;
-  height: 90vh;
+  padding: 80px;
+  margin: 80px auto;
+  max-width:  700px;
+
+}
+.image{
+  position:relative;
+  width: 400px;
+}
+.image2{
+  position:relative;
+  width: 400px;
+}
+.image3{
+  position: relative;
+  width: 400px;
+}
+.image-responsive{
+  display: block;
+  width: 100%;
+
+}
+.image-overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-family: "Gill Sans", sans-serif;
-  }
-  
- 
-  
-  .aboutBottom {
-    display: flex;
-    flex-direction: column;
-    height: 55%;
-    align-items: center;
-    margin-top: 0px;
-    background-color:black
-    
-  }
-  
-  .aboutBottom p {
-    width: 1200px;
-    color: white;
-    font-family: "Gill Sans", "Gill Sans MT",
-  }
-  
-  .about .aboutBottom h1 {
-    font-weight: 400;
-    color: white;
-    height: 30px;
-    display: flex;
-    justify-content: center;
-    transform: translateY(-40px);
-    font: var(--fontSize)/200% 'Bilbo Swash Caps', cursive;
-    font-size: 100px;
-  }
-  
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+.image-overlay2{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+.image-overlay3{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+.image-overlay--blur{
+  backdrop-filter: blur(5px);
+}
+.image-overlay > *{
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+.image-overlay:hover {
+  opacity: 1;
+}
+.image-overlay:hover > * {
+  transform: translateY(0);
+}
+.image-overlay2 > *{
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+.image-overlay2:hover {
+  opacity: 1;
+}
+.image-overlay2:hover > * {
+  transform: translateY(0);
+}
+.image-overlay3 > *{
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+.image-overlay3:hover {
+  opacity: 1;
+}
+.image-overlay3:hover > * {
+  transform: translateY(0);
+}
+.image-title{
+  font-size: 2em;
+}
+.image-score{
+  font-size: 1.25em;
+  margin-top: 0.25em;
+}
+.image-score2{
+  font-size: 1.25em;
+  margin-top: 0.25em;
+}
+.image-score3{
+  font-size: 1.25em;
+  margin-top: 0.25em;
+}
+.image-description{
+  font-size: 1.25em;
+  margin-top: 0.25em;
+}
+.image-description2{
+  font-size: 1.25em;
+  margin-top: 0.25em;
+}
+.image-description3{
+  font-size: 1.25em;
+  margin-top: 0.25em;
+}

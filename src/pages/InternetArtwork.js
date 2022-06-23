@@ -8,7 +8,9 @@ function InternetArtwork() {
       <div className="InternetArtwork">
         <DragDrop />
       </div>
+      
     </DndProvider>
+    
   );
 }
 

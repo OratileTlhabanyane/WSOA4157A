@@ -12,7 +12,7 @@ export default class Blog10 extends Component {
        
       
     <main>
-<element className="parchment"></element>
+    <div className="parchment"></div>
 <section className="contain">
 <h1 className="inkTitle">Final Internet Artwork Rationale and Critical Reflection.</h1>
 

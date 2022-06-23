@@ -12,7 +12,7 @@ export default class Blog3 extends Component {
        
       
     <main>
-<element className="parchment"></element>
+    <div className="parchment"></div>
 <section className="contain">
 <h1 className="inkTitle">Internet Artwork - Edited Preparatory work</h1>
 <p id="labarum"></p>
