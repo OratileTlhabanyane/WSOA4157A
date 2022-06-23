@@ -22,8 +22,8 @@ export default class Navbar extends Component {
 
   render() { //"this.state.openLinks ? "open" :"close"  " translates to if the openLinks state is true(?) then go to ID css called open and do what is stated otherwise(:) do ID css close says
     return (
-      <div className="navbar">
-          <div className="leftSide" id={this.state.openLinks ? "open" :"close" }>
+      <nav className="navbar">
+          <section className="leftSide" id={this.state.openLinks ? "open" :"close" }>
               <img src={Logo}/>
               <div className="hiddenLinks">
               <Link to ='/'>Home</Link>
@@ -33,9 +33,9 @@ export default class Navbar extends Component {
               <Link to ='/internetartwork'> Internet Art</Link>
               <Link to ='/contact'> Contact</Link>
               </div>
-          </div>
+          </section>
 
-          <div className="rightSide">
+          <section className="rightSide">
               <Link to ='/'>Home</Link>
               <Link to ='/about'> About</Link>
               <Link to ='/blogs'> Blogs</Link>
@@ -43,9 +43,9 @@ export default class Navbar extends Component {
               <Link to ='/internetartwork'> Internet Art</Link>
               <Link to ='/contact'> Contact</Link>
               <button onClick = {this.toggleNav}><ReorderIcon/></button>
-          </div> 
+          </section> 
           
-      </div>
+      </nav>
       //the hamburger is a button that will be togglng between the states of being visible and not visible when clicking
     )
   }

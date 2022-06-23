@@ -13,6 +13,10 @@ import Blog3 from './pages/Blog3';
 import Blog4 from './pages/Blog4';
 import Blog5 from './pages/Blog5';
 import Blog6 from './pages/Blog6';
+import Blog7 from './pages/Blog7';
+import Blog8 from './pages/Blog8';
+import Blog9 from './pages/Blog9';
+import Blog10 from './pages/Blog10';
 import Contact from './pages/Contact';
 import React, { Component } from 'react';
 
@@ -38,6 +42,10 @@ class App extends Component {
         <Route exact path='/blog4' component ={Blog4}/>
         <Route exact path='/blog5' component ={Blog5}/>
         <Route exact path='/blog6' component ={Blog6}/>
+        <Route exact path='/blog7' component ={Blog7}/>
+        <Route exact path='/blog8' component ={Blog8}/>
+        <Route exact path='/blog9' component ={Blog9}/>
+        <Route exact path='/blog10' component ={Blog10}/>
         <Route path="/" component={Home}/>
       </Switch>
 

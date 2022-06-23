@@ -8,12 +8,12 @@ export default class Blog3 extends Component {
   render() {
 
   return (
-    <div className="homeContent" >
+    <article className="blogContent" >
        
       
     <main>
-<div className="parchment"></div>
-<div className="contain">
+<element className="parchment"></element>
+<section className="contain">
 <h1 className="inkTitle">Internet, Society and Design Justice</h1>
 <p id="labarum"></p>
 <p>
@@ -59,8 +59,8 @@ export default class Blog3 extends Component {
         <li>The TSA’s Technology Is Discriminating Against Trans People - Pacific Standard. n.d. Available from: <a href="https://psmag.com/social-justice/tsa-technology-is-discriminating-against-trans-people">https://psmag.com/social-justice/tsa-technology-is-discriminating-against-trans-people</a> [Accessed 18 April 2022].</li> 
       </ul> 
         <p className="cachet"></p>
-<div id="signature"> <time  datetime="2022/04/18">Posted , 18 April 2022</time> <br/>Author: Oratile Tlhabanyane</div>
-</div>
+<section id="signature"> <time  datetime="2022/04/18">Posted , 18 April 2022</time> <br/>Author: Oratile Tlhabanyane</section>
+</section>
 </main>
 
 <svg>
@@ -69,7 +69,7 @@ export default class Blog3 extends Component {
 <feDisplacementMap in="SourceGraphic" scale="20" />
 </filter>
 </svg>
-    </div>
+    </article>
   );
 }
 }

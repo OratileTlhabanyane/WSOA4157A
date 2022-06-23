@@ -7,12 +7,12 @@ export default class Blog1 extends Component {
   render() {
 
   return (
-    <div className="homeContent" >
+    <article className="blogContent" >
        
       
     <main>
-<div className="parchment"></div>
-<div className="contain">
+<element className="parchment"></element>
+<section className="contain">
 <h1 className="inkTitle">Short Critical Analysis on a Net/Web Artwork</h1>
 <p id="labarum"></p>
 <p>
@@ -42,8 +42,8 @@ export default class Blog1 extends Component {
         </ul>
         
         <p className="cachet"></p>
-<div id="signature"> <time dateTime="2022/03/14">Posted , 14 March 2022</time><br />Author: Oratile Tlhabanyane</div>
-</div>
+<section id="signature"> <time dateTime="2022/03/14">Posted , 14 March 2022</time><br />Author: Oratile Tlhabanyane</section>
+</section>
 </main>
 
 <PreviousBtn/>
@@ -53,7 +53,7 @@ export default class Blog1 extends Component {
 <feDisplacementMap in="SourceGraphic" scale="20" />
 </filter>
 </svg>
-    </div>
+    </article>
   );
 }
 }

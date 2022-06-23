@@ -1,16 +1,19 @@
-import Blog1 from '../assets/mathieu-chirico-CfXZS5mFQhY-unsplash.jpg';
-import Blog2 from '../assets/michal-zaruba-MwgMmgEdUbk-unsplash.jpg';
-import Blog3 from '../assets/tamara-malaniy-9Jy0asiYfBQ-unsplash.jpg';
-import Blog4 from '../assets/naomi-tamar-u1iIIQwtRqU-unsplash.jpg';
-import Blog5 from '../assets/animal1.jpg';
-import Blog6 from '../assets/animal3.jpg';
+import Blog1 from '../assets/art1.png';
+import Blog2 from '../assets/art10.jpg';
+import Blog3 from '../assets/art6.jpg';
+import Blog4 from '../assets/art2.png';
+import Blog5 from '../assets/art8.jpg';
+import Blog6 from '../assets/art4.jpg';
+import Blog7 from '../assets/art7.jpg';
+import Blog8 from '../assets/art10.jpg';
+import Blog9 from '../assets/art3.png';
+import Blog10 from '../assets/art5.jpg';
 
 export const Blogs1 = [
     {
-        name: "Blog 1",
+        name: "Short Critical Analysis on a Net/Web Artwork",
         image: Blog1,
-        
-        
+
     },
 ];
 export const Blogs2 = [
@@ -48,7 +51,8 @@ export const Blogs5 = [
        
         
     },
-];export const Blogs6 = [
+];
+export const Blogs6 = [
 
     {
         name: "Blog 6",
@@ -57,3 +61,40 @@ export const Blogs5 = [
         
     },
 ];
+export const Blogs7 = [
+
+    {
+        name: "Blog 7",
+        image: Blog7,
+       
+        
+    },
+];
+export const Blogs8 = [
+
+    {
+        name: "Blog 8",
+        image: Blog8,
+       
+        
+    },
+];
+export const Blogs9 = [
+
+    {
+        name: "Blog 9",
+        image: Blog9,
+       
+        
+    },
+];
+export const Blogs10 = [
+
+    {
+        name: "Blog 10",
+        image: Blog10,
+       
+        
+    },
+];
+

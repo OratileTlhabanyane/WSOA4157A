@@ -3,7 +3,7 @@ import "../styles/OldPaperTexture.css";
 
 
 
-export default class Blog6 extends Component {
+export default class Blog7 extends Component {
   
   render() {
 
@@ -14,7 +14,7 @@ export default class Blog6 extends Component {
     <main>
 <element className="parchment"></element>
 <section className="contain">
-<h2 className="inkTitle">Asssignment 1 Reflection</h2>
+<h2 className="inkTitle">Asssignment 2 Reflection</h2>
 <p id="labarum"></p>
 <p>
 

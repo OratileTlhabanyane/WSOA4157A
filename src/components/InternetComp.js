@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import Picture from "../Assistance/PictureDraged";
 import { useDrop } from "react-dnd";
 import "../styles/Internetartwork.css";
-import Img1 from '../assets/naomi-tamar-u1iIIQwtRqU-unsplash.jpg';
-import Img2 from '../assets/animal1.jpg';
-import Img3 from '../assets/animal3.jpg';
+import Img1 from '../assets/art1.png';
+import Img2 from '../assets/art2.png';
+import Img3 from '../assets/art3.png';
 
 
 const PictureList = [
