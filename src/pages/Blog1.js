@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import "../styles/OldPaperTexture.css";
-import PreviousBtn from '../components/Prev.js';
+
 
 export default class Blog1 extends Component {
   
@@ -46,14 +46,17 @@ export default class Blog1 extends Component {
 </section>
 </main>
 
-<PreviousBtn/>
 <svg>
 <filter id="wavy2">
 <feTurbulence x="0" y="0" baseFrequency="0.02" numOctaves="5" seed="1" />
 <feDisplacementMap in="SourceGraphic" scale="20" />
 </filter>
 </svg>
+<a href="https://google.com" class="button"><button class="pixel">Button text</button></a>
+2
+
     </article>
+    
   );
 }
 }
