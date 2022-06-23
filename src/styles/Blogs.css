@@ -28,6 +28,11 @@ body{
     grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
   }
+  .blogImages{
+    width:300px;
+    height:300px;
+    object-fit:cover;
+  }
   
   /* BLOGS ITEM STYLING */
   
@@ -42,6 +47,7 @@ body{
     font: var(--fontSize)/200% 'Bilbo Swash Caps', cursive;
     
   }
+
   .blogContainer button{
     background-color: black;
   }

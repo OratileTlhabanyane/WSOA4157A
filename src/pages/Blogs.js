@@ -27,7 +27,7 @@ const Blogs = () => {
    
       
         <Link to ='/Blog1' >
-              <button>   <div>
+              <button>   <div className="blogImages">
           {Blogs1.map((blogsItem, value) => {
             return (
               <BlogsItem value = {value} name= {blogsItem.name} image= {blogsItem.image}/>

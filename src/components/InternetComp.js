@@ -3,7 +3,7 @@ import Picture from "../Assistance/PictureDraged";
 import { useDrop } from "react-dnd";
 import "../styles/Internetartwork.css";
 import Img1 from '../assets/art1.png';
-import Img2 from '../assets/art2.png';
+import Img2 from '../assets/art2.jpg';
 import Img3 from '../assets/art3.png';
 
 
