@@ -6,7 +6,8 @@ export default class BlogsItem extends Component {
     return (
       <div className="blogsItem">
           <div style= {{backgroundImage: `url(${this.props.image})`}}></div>
-
+          <h1>{this.props.name}</h1>
+          
         </div>
     )
   }

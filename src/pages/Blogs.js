@@ -9,7 +9,6 @@ import BlogsItem from '../components/BlogsItem.js';
 import BlogsImage from '../assets/michael-benz-IgWNxx7paz4-unsplash.jpg';
 import {Link} from 'react-router-dom';
 import "../styles/Blogs.css";
-import Popup from '../components/Popup';
 import {useState, useRef} from 'react';
 import Blog1 from '../pages/Blog1';
 
@@ -24,7 +23,7 @@ const Blogs = () => {
         <div className="blogContainer">
    
       
-        <Link >
+        <Link to ='/Blog1' >
               <button>   <div>
           {Blogs1.map((blogsItem, value) => {
             return (
@@ -35,7 +34,7 @@ const Blogs = () => {
         </button>
             </Link>
   
-            <Link >
+            <Link to ='/Blog2' >
               <button>   <div>
           {Blogs2.map((blogsItem, value) => {
             return (
@@ -45,7 +44,7 @@ const Blogs = () => {
         </div>
         </button>
             </Link>
-            <Link >
+            <Link to ='/Blog3' >
               <button>   <div>
           {Blogs3.map((blogsItem, value) => {
             return (
@@ -55,7 +54,7 @@ const Blogs = () => {
         </div>
         </button>
             </Link> 
-            <Link >
+            <Link to ='/Blog4'>
               <button>   <div>
           {Blogs4.map((blogsItem, value) => {
             return (
@@ -65,7 +64,7 @@ const Blogs = () => {
         </div>
         </button>
             </Link> 
-            <Link >
+            <Link to ='/Blog5' >
               <button>   <div>
           {Blogs5.map((blogsItem, value) => {
             return (
@@ -75,7 +74,7 @@ const Blogs = () => {
         </div>
         </button>
             </Link>
-            <Link >
+            <Link to ='/Blog6' >
               <button>   <div>
           {Blogs6.map((blogsItem, value) => {
             return (

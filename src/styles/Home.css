@@ -10,7 +10,7 @@ video {
  }
 body{
   min-height: 100vh;
-  background:black;
+  background: white;
   overflow-x: hidden;
   
 }

@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Pirata+One|Bilbo+Swash+Caps&display=swap');
+
+@font-face {
+    font-family: Morris;
+    src: url(https://cdn.statically.io/gh/EmmesCodes/Tipografias/dae9f5bb/MorrisInitials.ttf);
+    }
 .navbar{
     display: flex; 
     justify-content: space-around;
@@ -6,8 +12,13 @@
     position: -webkit-sticky; 
     position: sticky;
     background-color: black;
+    font:var(--fontSize)/200% 'Bilbo Swash Caps', cursive;
+   
+   
     
 }
+
+  
 .navbar .leftSide{
     flex: 50%;
     height: 100%;
@@ -30,7 +41,7 @@
     color: white;
     text-decoration: none;
     margin: 20px;
-    font-size: 10px;
+    font-size: 15px;
 }
 .navbar .rightSide button {
     background-color:transparent;

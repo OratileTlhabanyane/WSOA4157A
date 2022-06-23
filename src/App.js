@@ -1,11 +1,7 @@
 import './App.css';
 import Navbar from './components/Navbar.js';
-import render from './components/Navbar.js';
-import ScrollToHome from './components/ScrollToHome.js';
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import {Route, Switch} from 'react-router-dom';
 import Home from './pages/Home.js';
-import Part1 from './pages/Part1.js';
-import Part2 from './pages/Part2.js';
 import Footer from './components/Footer.js';
 import Blogs from './pages/Blogs.js';
 import About from './pages/About.js';
@@ -26,14 +22,13 @@ class App extends Component {
 
   return (
     <div className="App">  
-   
-  <Router>
+  
       <Navbar />
     
       <Switch>
       <Route exact path='/' component ={Home}/>
       <Route exact path='/blogs' component ={Blogs}/>
-      <Route exact path='/about' element ={<About/>}/>
+      <Route exact path='/about' component ={About}/>
         <Route exact path='/design' component ={Design}/>
         <Route exact path='/internetartwork' component ={InternetArtwork}/>
         <Route exact path='/contact' component ={Contact}/>
@@ -44,7 +39,7 @@ class App extends Component {
         <Route exact path='/blog5' component ={Blog5}/>
         <Route exact path='/blog6' component ={Blog6}/>
         <Route path="/" component={Home}/>
-      </Switch></Router>
+      </Switch>
 
       <Footer />
     </div>

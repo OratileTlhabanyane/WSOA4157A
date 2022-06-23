@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Pirata+One|Bilbo+Swash+Caps&display=swap');
+
 body{
   background-color: black;
 }
@@ -15,6 +17,8 @@ body{
     font-family: "Gill Sans", sans-serif;
     font-size: 60px;
     color: white;
+    font: var(--fontSize)/200% 'Bilbo Swash Caps', cursive;
+    font-size: 100px;
   }
   
   .blogsList {
@@ -35,6 +39,8 @@ body{
     margin: 40px;
     border: 1px solid;
     color: white;
+    font: var(--fontSize)/200% 'Bilbo Swash Caps', cursive;
+    
   }
   .blogContainer button{
     background-color: black;
