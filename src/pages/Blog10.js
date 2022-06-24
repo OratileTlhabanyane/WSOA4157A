@@ -3,7 +3,7 @@ import "../styles/OldPaperTexture.css";
 import {Link} from 'react-router-dom';
 
 
-export default class Blog4 extends Component {
+export default class Blog10 extends Component {
   
   render() {
 
@@ -14,7 +14,7 @@ export default class Blog4 extends Component {
     <main>
     <div className="parchment"></div>
 <section className="contain">
-<h1 className="inkTitle">Internet Artwork - Edited Preparatory work</h1>
+<h1 className="inkTitle">Final Internet Artwork Rationale and Critical Reflection.</h1>
 <p id="labarum"></p>
 <p>
 I have decided to change my overall theme for website. I had previously had an ocean themed website and this theme was really hard to 

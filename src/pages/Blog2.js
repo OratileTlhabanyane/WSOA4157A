@@ -43,7 +43,7 @@ export default class Blog2 extends Component {
    
         
         <p className="cachet"></p>
-<section id="signature"> <time datetime="2022/04/4">Posted , 4 April 2022</time> <br/>Author: Oratile Tlhabanyane</section>
+<section id="signature"> <time datetime="2022/04/4">Signed , 4 April 2022</time> <br/>Author: Oratile Tlhabanyane</section>
 </section>
 </main>
 

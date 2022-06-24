@@ -59,7 +59,7 @@ export default class Blog3 extends Component {
         <li>The TSA’s Technology Is Discriminating Against Trans People - Pacific Standard. n.d. Available from: <a href="https://psmag.com/social-justice/tsa-technology-is-discriminating-against-trans-people">https://psmag.com/social-justice/tsa-technology-is-discriminating-against-trans-people</a> [Accessed 18 April 2022].</li> 
       </ul> 
         <p className="cachet"></p>
-<section id="signature"> <time  datetime="2022/04/18">Posted , 18 April 2022</time> <br/>Author: Oratile Tlhabanyane</section>
+<section id="signature"> <time  datetime="2022/04/18">Signed , 18 April 2022</time> <br/>Author: Oratile Tlhabanyane</section>
 </section>
 </main>
 

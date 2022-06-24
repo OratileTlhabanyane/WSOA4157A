@@ -17,7 +17,11 @@ export default class Blog1 extends Component {
 <h1 className="inkTitle">Short Critical Analysis on a Net/Web Artwork</h1>
 <p id="labarum"></p>
 <p>
-          For this week’s short critical analysis is going to be looking at Joe Hamilton’s net artwork series titled Indirect Flights.This art series what looks like a collage of images, images that Hamilton took during his trips to Europe, Asia, and the Middle East(“Indirect Flights - Joe Hamilton” n.d.).According to the article on Google Arts & Culture, the website which hosts this artwork, Indirect.flights, is navigated in like an ordinary Google Map (“Indirect Flights - Joe Hamilton” n.d.).This meaning that the scrolling of the artwork is parallax.This digitally layered topography was created during the year 2014 (“What is Topography?The Definitive Guide - GIS Geography” n.d.).
+          For this week’s short critical analysis is going to be looking at Joe Hamilton’s net artwork series titled Indirect Flights.
+          This art series what looks like a collage of images, images that Hamilton took during his trips to Europe, Asia, 
+          and the Middle East(“Indirect Flights - Joe Hamilton” n.d.).According to the article on Google Arts & Culture, 
+          the website which hosts this artwork, Indirect.flights, is navigated in like an ordinary Google Map (“Indirect Flights - Joe Hamilton” n.d.).
+          This meaning that the scrolling of the artwork is parallax.This digitally layered topography was created during the year 2014 (“What is Topography?The Definitive Guide - GIS Geography” n.d.).
         </p>
      
 
@@ -43,7 +47,7 @@ export default class Blog1 extends Component {
         </ul>
         
         <p className="cachet"></p>
-<section id="signature"> <time dateTime="2022/03/14">Posted , 14 March 2022</time><br />Author: Oratile Tlhabanyane</section>
+<section id="signature"> <time dateTime="2022/03/14">Signed , 14 March 2022</time><br />Author: Oratile Tlhabanyane</section>
 </section>
 </main>
 
