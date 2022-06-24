@@ -3,34 +3,40 @@ import "../styles/OldPaperTexture.css";
 import {Link} from 'react-router-dom';
 
 
-export default class Blog4 extends Component {
+export default class Blog10 extends Component {
   
   render() {
 
   return (
     <article className="blogContent" >
        
-       <button> <Link to ="/Blog3">PREVIOUS</Link></button>  <button> <Link to ="/Blogs">BLOG PAGE</Link></button> <button> <Link to ="/Blog5">NEXT</Link></button>
+     
+       <button> <Link to ="/Blog9">PREVIOUS</Link></button>  <button> <Link to ="/Blogs">BLOG PAGE</Link></button> 
     <main>
     <div className="parchment"></div>
 <section className="contain">
-<h1 className="inkTitle">Internet Artwork - Edited Preparatory work</h1>
+<h1 className="inkTitle">Final Internet Artwork Rationale and Critical Reflection.</h1>
+
 <p id="labarum"></p>
 <p>
-I have decided to change my overall theme for website. I had previously had an ocean themed website and this theme was really hard to 
-execute creatively. It was either looking like an informatic website about ocean creatures or looking like a normal website about water. 
-This made it had for to execute a good internet artwork and provide a well-executed internet art website that connected with actual internet 
-artwork. I had noticed my use of colours, fonts and interactivity were not giving representing my initial theme. The website looked quite 
-generic, and I only used images and videos in a simplistic way and not creatively. Therefore, I decided to change my theme and make it on 
-Renaissance artwork. I have had a great interest in The Renaissance and the art that was created around those times. 
+<h2>Inspiration</h2>
+The idea I have for my website is for it to feel like the user is under the ocean. I have quite a huge interest in deep sea creatures and 
+the ocean entirely. I want my website to embody the elements of the sea and its creatures. Having to execute a website to look and feel 
+like a nature element is a bit tricky because it could either be hit or a miss. However, I want to be able to interpret the ocean through 
+interaction whether through animation and sound, exhibiting sea creatures through the colours of pages for example, each page will represent 
+a sea creature whether through page theme or layout.  
+
    </p> 
 
       <p>
-      Renaissance art had a unique style throughout the paintings, sculptures, etc. Famous Renaissance artists that many would know are
-      Leonardo Da Vinci who made the famous Mona Lisa and Michelangelo who sculpted the David. The artwork during this time had a great 
-      influence of the Catholic Church and this is seen in pieces such as The Last Supper and Pietà. According to the article of Renaissance 
-      art on History, many of artworks that we love and admire today “were seen and used mostly as religious souvenirs”(Editors n.d.)
-  </p>
+     <h2>Research</h2> 
+My first thought when it came to my different pages is for them to carry individual themes but have an overall theme for the website. 
+What I mean by that is that my overall theme for my website is the ocean and each page will have a theme represent a specific sea creature. 
+I did research on the specific deep-sea creatures I wanted to use for my individual pages, and I got a bit frightened by the images I found.
+ Look at figure 1.1 and figure 1.2 as examples of the deep-sea creatures I found. I do not want my users to experience a sense of fear and t
+ ension during their interaction with my website, so I decided just to focus on normal sea creatures. I want my users to experience 
+ relaxation and peace when interacting with my website from the background sound of the ocean to the smooth animation transition of different water elements. 
+ </p>
 
   <p>
   The four characteristics of Renaissance art that I found during my research are the following: “revival of classical Greek or Roman art 
@@ -39,14 +45,9 @@ Renaissance artwork. I have had a great interest in The Renaissance and the art 
   Therefore, for my internet artwork I want to be able to capture a collage of renaissance art pieces. 
 </p>
 
- <p>
- I want to be able to make this art pieces be interactive and have the user ‘build’ or make their own digital renaissance art piece. 
- I am looking to make use of images of two art paintings and an image of one sculpture. I want to take these three art pieces and divide 
- them into squares and have the users build their own hybrid renaissance artwork. I have attached a few images I would use to compile the 
- art piece. The interactivity will make use of the drag and drop method for the building of the artworks.
-</p>
-      <p><strong> 395 words</strong></p>
-      <h2>Bibliography </h2>
+
+      <p><strong> words</strong></p>
+      <h3>Bibliography </h3>
      
       
       <ul> 
