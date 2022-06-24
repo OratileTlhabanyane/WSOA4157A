@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import "../styles/OldPaperTexture.css";
-
+import {Link} from 'react-router-dom';
 
 
 export default class Blog10 extends Component {
@@ -10,7 +10,8 @@ export default class Blog10 extends Component {
   return (
     <article className="blogContent" >
        
-      
+     
+       <button> <Link to ="/Blog9">PREVIOUS</Link></button>  <button> <Link to ="/Blogs">BLOG PAGE</Link></button> 
     <main>
     <div className="parchment"></div>
 <section className="contain">

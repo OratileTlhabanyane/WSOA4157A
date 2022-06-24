@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
 import "../styles/OldPaperTexture.css";
+import {Link} from 'react-router-dom';
 
 
-
-export default class Blog3 extends Component {
+export default class Blog4 extends Component {
   
   render() {
 
   return (
     <article className="blogContent" >
        
-      
+       <button> <Link to ="/Blog3">PREVIOUS</Link></button>  <button> <Link to ="/Blogs">BLOG PAGE</Link></button> <button> <Link to ="/Blog5">NEXT</Link></button>
     <main>
     <div className="parchment"></div>
 <section className="contain">
