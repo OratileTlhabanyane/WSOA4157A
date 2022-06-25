@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import "../styles/Design.css";
+import "../styles/About.css";
 import piece2 from '../assets/art5.jpg';
 
 export default class About extends Component {
@@ -7,12 +7,9 @@ export default class About extends Component {
     return (
       <section className="about">
        <section className= "section-1">
-    <h2> Introduction to CoinGecko</h2>
-    <p>CoinGecko’s independently sourced crypto data such as live prices, 
-        trading volume, exchange volumes, trading pairs, historical data, contract address data, 
-        crypto categories, crypto derivatives, images and more. I chose this API because I wanted to explore cryptocurrency through the
-        perspective of an artist, this API documentation is not too overwhelming with data and also provides data visualizations which 
-        makes the data easy to consume.
+    <h2 className="aboutTitle"> About</h2>
+    <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
         
         
         
@@ -23,7 +20,7 @@ export default class About extends Component {
    <section className="section-4 image">
     <img  className="img-responsive" src={piece2}/>
     <div className="image-overlay image-overlay--blur">
-        <h2 className="image-title">1.</h2>
+        <h2 className="image-title">1. The Mona Lisa was painted between the year 1509 and 1519 by Leonardo da Vinci</h2>
         <p className="image-score">
            
         </p>
@@ -36,7 +33,7 @@ export default class About extends Component {
     <section className="section-2 image2">
         <img className="img-responsive2" src={piece2}/>
         <div className="image-overlay2 image-overlay--blur">
-            <h2 className="image-title">2.</h2>
+            <h2 className="image-title">2. This painting was once stolen by a handyman at the Lourve but Pablo Picasso was even a suspect </h2>
             <p className="image-score2">
               
             </p>
@@ -49,7 +46,7 @@ export default class About extends Component {
         <section  className="section-3 image3">
             <img className="img-responsive3" src={piece2}/>
             <div className="image-overlay3 image-overlay--blur">
-                <h2 className="image-title">3.</h2>
+                <h2 className="image-title">3.It has an insuarance valuation of $100 000 making it the high lnow insurance value in art</h2>
                 <p className="image-score3">
                   
                 </p>

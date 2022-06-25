@@ -1,4 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Pirata+One|Bilbo+Swash+Caps&display=swap');
 
+.designTitle{
+  color: white;
+  font: var(--fontSize)/200% 'Bilbo Swash Caps', cursive;
+  font-size: 60px;
+  text-align: center;
+  background-color: black;
+  padding-left: 600px;
+}
 .section-1{
   margin-left: 80px;
   color: white;
@@ -8,12 +17,10 @@
   border-radius: 20px;
 }
 .section-2{
-  position: relative;
-
-  width: 150%;
-  color: white;
+  margin-left: 0px;
   background-color: #4465b1;
-}
+
+} 
 .section-3{
   position: relative;
 
@@ -56,9 +63,8 @@
   left: 0;
   width:100%;
   height: 100%;
-  background: rgba(0,0,0,0.6);
+  font: var(--fontSize)/200% 'Bilbo Swash Caps', cursive;
   color: white;
-  font-family: 'Courier New', Courier, monospace;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -72,9 +78,8 @@
   left: 0;
   width:100%;
   height: 100%;
-  background: rgba(0,0,0,0.6);
+  font: var(--fontSize)/200% 'Bilbo Swash Caps', cursive;
   color: white;
-  font-family: 'Courier New', Courier, monospace;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -88,9 +93,8 @@
   left: 0;
   width:100%;
   height: 100%;
-  background: rgba(0,0,0,0.6);
+  font: var(--fontSize)/200% 'Bilbo Swash Caps', cursive;
   color: white;
-  font-family: 'Courier New', Courier, monospace;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -98,9 +102,7 @@
   opacity: 0;
   transition: opacity 0.25s;
 }
-.image-overlay--blur{
-  backdrop-filter: blur(5px);
-}
+
 .image-overlay > *{
   transform: translateY(20px);
   transition: transform 0.25s;

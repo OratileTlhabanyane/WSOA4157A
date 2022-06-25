@@ -11,7 +11,7 @@ import Blog10 from '../assets/art5.jpg';
 
 export const Blogs1 = [
     {
-        name: "Short Critical Analysis on a Net/Web Artwork",
+        name: "Blog 1",
         image: Blog1,
     },
 ];

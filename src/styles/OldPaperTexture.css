@@ -46,10 +46,11 @@ main {
 ul li{
   background-color: #b2b2b2;
   background-color: rgba(0, 0, 0, .001);
+  font-size: 1.25em;
 }
 
 main p {
-  font-size: 1.25em;
+  font-size: 1.75em;
   color: #7F3300;
   margin-top: .75em;
   text-align: justify;

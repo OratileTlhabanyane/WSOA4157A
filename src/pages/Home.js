@@ -5,7 +5,9 @@ import video from '../assets/video.mp4';
 import piece1 from '../assets/art3.png';
 import piece2 from '../assets/art5.jpg';
 import piece3 from '../assets/art6.jpg';
-import piece4 from '../assets/art8.jpg';
+import piece4 from '../assets/art4.jpg';
+import piece5 from '../assets/art7.jpg';
+import piece6 from '../assets/art8.jpg';
 
 
 
@@ -16,10 +18,10 @@ return (
       <section className="container" >
       
       <div className="card">
-            <img src={piece1} alt=""/>
+            <img src={piece6} alt=""/>
         </div>
         <div className="card">
-            <img src={piece2} alt=""/>
+            <img src={piece1} alt=""/>
         </div>
         <div className="card">
             <img src={piece3} alt=""/>
@@ -28,7 +30,7 @@ return (
             <img src={piece4} alt=""/>
         </div>
         <div className="card">
-            <img src={piece1} alt=""/>
+            <img src={piece5} alt=""/>
         </div>
         
         <div className="card">

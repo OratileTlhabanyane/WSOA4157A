@@ -54,18 +54,14 @@ David and a painting of Raphael. I used a tool called IMGOnline where it slices 
  Renaissance artwork in a unique way. 
 </p>
       <p><strong> 537 words</strong></p>
+
+      
       <h2>Bibliography </h2>
-     
       
       <ul> 
-      Editors, H com. n.d. Renaissance Art. Available from: https://www.history.com/topics/renaissance/renaissance-art [Accessed 22 June 2022].
-
-Renaissance Art: History, Characteristics. n.d. Available from: http://www.visual-arts-cork.com/renaissance-art.htm#characteristics [Accessed 22 June 2022].
-
-
-Cut photo into equal parts online - IMG online. n.d. Available from: https://www.imgonline.com.ua/eng/cut-photo-into-pieces.php [Accessed 24 June 2022].
-
-
+      <li>Editors, H com. n.d. Renaissance Art. Available from: <a href="https://www.history.com/topics/renaissance/renaissance-art">https://www.history.com/topics/renaissance/renaissance-art</a> [Accessed 22 June 2022].</li>
+          <li>Renaissance Art: History, Characteristics. n.d. Available from:<a href="http://www.visual-arts-cork.com/renaissance-art.htm#characteristics">http://www.visual-arts-cork.com/renaissance-art.htm#characteristics</a> [Accessed 22 June 2022].</li>
+        <li>Cut photo into equal parts online - IMG online. n.d. Available from: <a href="https://www.imgonline.com.ua/eng/cut-photo-into-pieces.php"></a> [Accessed 24 June 2022].</li>
 
 
     </ul> 
