@@ -57,8 +57,6 @@ export default class Blog1 extends Component {
 <feDisplacementMap in="SourceGraphic" scale="20" />
 </filter>
 </svg>
-<a href="https://google.com" className="button"><button className="pixel">Button text</button></a>
-2
 
     </article>
     

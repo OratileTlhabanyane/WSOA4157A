@@ -44,8 +44,7 @@ main {
  
 }
 ul li{
-  background-color: #b2b2b2;
-  background-color: rgba(0, 0, 0, .001);
+  background-color: rgba(0, 0,0,0.001);
   font-size: 1.25em;
 }
 
@@ -72,7 +71,6 @@ main p {
 	font-family: Pirata One, sans-serif;
   text-align: center;
   line-height: 3em;
-	color: black;
 	opacity: 0.6;
 }
 
@@ -97,6 +95,5 @@ main p {
 
 #signature {
   text-align: right;
-  color: black;
   font-size: 250%;
 }

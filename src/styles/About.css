@@ -9,7 +9,7 @@
   background-color: black;
 
 }
-p{
+.aboutContent p{
   font: var(--fontSize)/200% 'Bilbo Swash Caps', cursive;
   background-color: black;
 }
