@@ -4,6 +4,7 @@ import DragDrop from "../components/InternetComp";
 
 function InternetArtwork() {
   return (
+    
     <DndProvider backend={HTML5Backend}>
       <div className="InternetArtwork">
         <DragDrop />

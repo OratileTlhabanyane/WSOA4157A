@@ -19,7 +19,7 @@ export default class Blog7 extends Component {
 <p id="labarum"></p>
 <p>
 This assignment submission we were required to focus more on the Website and Fully Functional Prototype of Internet Artwork. 
-Thus, making using of required blogs posts for content, UI/UX components for aesthetics design and a good use of React.js 
+Therefore, we were required to include blog posts for content, UI/UX components for aesthetics design and a good use of React.js 
 for our technical component.  This assignment had to be one of my hardest in regard to the technical side of it. 
 I will be discussing the challenges I encountered and some moments of success. I also had great difficulty implementing 
 my internet artwork idea. 

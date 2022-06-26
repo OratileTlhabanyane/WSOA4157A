@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import "../styles/OldPaperTexture.css";
 import {Link} from 'react-router-dom';
+import TSAScreenshot from '../assets/Screenshot.png';
 
 
 export default class Blog3 extends Component {
@@ -31,7 +32,7 @@ export default class Blog3 extends Component {
       binary-gendered body-shape data constructs, and risk detection algorithms, as well as the socialization, training, and experience 
       of the TSA agents.”(Costanza-Chock n.d.) </p>
       
-      <section className='image' style= {{backgroundImage: `url(${Image})`}}> </section>
+     <img  className="img-responsive" src={TSAScreenshot}/> 
     
       <p>
       In Sasha Costanza-Chock’s reading Design Justice, she mentions how she identifies as a nonbinary trans femme. 

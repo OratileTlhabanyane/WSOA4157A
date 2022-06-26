@@ -19,6 +19,14 @@ html, body {
   font: var(--fontSize)/200% 'Bilbo Swash Caps', cursive;
   background-size: cover;
 }
+.blogContent button{
+  background-color: black;
+
+
+}
+.blogContent button a{
+  color: white;
+}
 
 main {
   position: relative;
@@ -33,7 +41,6 @@ main {
   display: flex;
 	width: 75%;
     height: 100%;
-
   top: 0%; left: 50%; transform: translate(-50%, 0);
   margin: 2em 0;
 	padding: 4em;
@@ -53,6 +60,7 @@ main p {
   color: #7F3300;
   margin-top: .75em;
   text-align: justify;
+  font: var(--fontSize)/200% 'Bilbo Swash Caps', cursive;
 }
 
 

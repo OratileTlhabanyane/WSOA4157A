@@ -15,7 +15,7 @@ export default class Blog4 extends Component {
     <main>
     <div className="parchment"></div>
 <section className="contain">
-<h1 className="inkTitle">Internet Artwork - Edited Preparatory work</h1>
+<h1 className="inkTitle">Internet Artwork - Preparatory work</h1>
 
 <p id="labarum"></p>
 <p>
@@ -46,7 +46,7 @@ I did research on the specific deep-sea creatures I wanted to use for my individ
 </p>
 
 
-      <p><strong> words</strong></p>
+      <p><strong>348 words</strong></p>
    
         <p className="cachet"></p>
 <section id="signature"> <time  datetime="2022/06/03"></time>Signed, 3 June 2022 <br/>Author: Oratile Tlhabanyane</section>

@@ -57,7 +57,7 @@ this method has worked perfectly, and I have not run into any deployment issues.
       <h3>Bibliography </h3>
     
         <p className="cachet"></p>
-<section id="signature"> <time  datetime="2022"></time> <br/>Author: Oratile Tlhabanyane</section>
+<section id="signature"> <time  datetime="2022/06/22"></time>Signed, 22 June 2022<br/>Author: Oratile Tlhabanyane</section>
 </section>
 </main>
 

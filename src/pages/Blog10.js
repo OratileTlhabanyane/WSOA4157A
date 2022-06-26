@@ -42,8 +42,7 @@ Renaissance artwork. I have had a great interest in The Renaissance and the art 
  <p>
  I want to be able to make this art pieces be interactive and have the user ‘build’ or make their own digital renaissance art piece. 
  I am looking to make use of images of two art paintings and an image of one sculpture. I want to take these three art pieces and divide 
- them into squares and have the users build their own hybrid renaissance artwork. I have attached a few images I would use to compile the 
- art piece. The interactivity will make use of the drag and drop method for the building of the artworks.
+ them into squares and have the users build their own hybrid renaissance artwork. The interactivity will make use of the drag and drop method for the building of the artworks.
 </p>
 <p>
 I decided to choose two Renaissance artworks, one image of a sculpture and the other of a painting. I have decided to use the sculpture of 
@@ -66,7 +65,7 @@ David and a painting of Raphael. I used a tool called IMGOnline where it slices 
 
     </ul> 
         <p className="cachet"></p>
-<section id="signature"> <time  datetime="2022"></time> <br/>Author: Oratile Tlhabanyane</section>
+<section id="signature"> <time  datetime="2022/06/24"></time>Signed, 24 June 2022 <br/>Author: Oratile Tlhabanyane</section>
 </section>
 </main>
 

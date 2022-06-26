@@ -46,18 +46,23 @@ Renaissance art paintings, these being colours that are a bit duller and pastel 
 digital touch of 'internet art'. Therefore, I decided on a neon colour scheme. In regards, to my readability and legibility, 
 I had received feedback from my previous assignment that my font on big screens gets too small, I do not how to test and see this error in order to fix it 
 because I don’t have a big screen other than my laptop. However, when testing responsiveness of my font on my laptop, the font was big give enough for phones and iPads.
+The last feedback I received in regards to my user experience was that my blog posts were stretched from one side of the screen all the way to the other side. 
+So I did not just want to fix the layout of the blogs in order to improve readability but I also wanted the new layout to add to my Renaissance theme so I then 
+I decided to a old paper note texture to my new blog layout. I followed a tutorial that showed us how to make the old paper note layout and this helped me achieve the idea 
+that I had.
    </p>
 
       <p>
       However, looking at my overall website aesthetics I wanted to create a minimalistic homepage with a collage that consists of different 
       Renaissance artworks so that the user knows exactly what my theme is when they land on my website. I tried to make my homepage look a bit 
       interesting so I followed an interesting animation effect collage tutorial and it helped me to get an interesting user experience when 
-      the user hovers on each image. I wanted to keep my design with the rest of my pages simplistic and as well as keep the interactivity simple
+      the user hovers on each image. I wanted to keep my design with the rest of my pages simplistic and as well as keep the interactivity simple. 
+      
   </p>
       <p><strong> 468 words</strong></p>
   
         <p className="cachet"></p>
-<section id="signature"> <time  datetime="2022"></time> <br/>Author: Oratile Tlhabanyane</section>
+<section id="signature"> <time  datetime="2022/06/24"></time>Signed, 24 June 2022 <br/>Author: Oratile Tlhabanyane</section>
 </section>
 </main>
 

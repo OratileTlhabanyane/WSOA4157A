@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import "../styles/Contact.css";
-import {Link} from 'react-router-dom';
 import InstagramCard from "../components/InstagramCard"
 import GmailCard from "../components/GmailCard"
 import FacebookCard from "../components/FacebookCard"

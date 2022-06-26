@@ -18,18 +18,18 @@
 }
 .section-2{
   margin-left: 0px;
-  background-color: #4465b1;
+  background-color: #E0FF4F;
 
 } 
 .section-3{
   position: relative;
 
-  background-color:#580f23;
+  background-color:#FF2ECC;
 
 }
 .section-4{
   position: relative;
-  background-color:#ec668a;
+  background-color:#FF6663;
 
 }
 
@@ -79,7 +79,7 @@
   width:100%;
   height: 100%;
   font: var(--fontSize)/200% 'Bilbo Swash Caps', cursive;
-  color: white;
+  color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
