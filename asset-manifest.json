@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/WSOA4157A/static/css/main.ac79c094.css",
-    "main.js": "/WSOA4157A/static/js/main.57228c4d.js",
+    "main.js": "/WSOA4157A/static/js/main.69250f4c.js",
     "static/js/787.21d17fcb.chunk.js": "/WSOA4157A/static/js/787.21d17fcb.chunk.js",
     "static/media/art10.jpg": "/WSOA4157A/static/media/art10.2da8d1f1cb9b56c8d8cf.jpg",
     "static/media/michael-benz-IgWNxx7paz4-unsplash.jpg": "/WSOA4157A/static/media/michael-benz-IgWNxx7paz4-unsplash.a6ae2bd66e10bcd09c15.jpg",
@@ -34,11 +34,11 @@
     "static/media/Logo2.png": "/WSOA4157A/static/media/Logo2.129e671d44eb54983bc4.png",
     "index.html": "/WSOA4157A/index.html",
     "main.ac79c094.css.map": "/WSOA4157A/static/css/main.ac79c094.css.map",
-    "main.57228c4d.js.map": "/WSOA4157A/static/js/main.57228c4d.js.map",
+    "main.69250f4c.js.map": "/WSOA4157A/static/js/main.69250f4c.js.map",
     "787.21d17fcb.chunk.js.map": "/WSOA4157A/static/js/787.21d17fcb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ac79c094.css",
-    "static/js/main.57228c4d.js"
+    "static/js/main.69250f4c.js"
   ]
 }
