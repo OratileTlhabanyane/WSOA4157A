@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/WSOA4157A/static/css/main.8f7280fc.css",
-    "main.js": "/WSOA4157A/static/js/main.e3f6e9b7.js",
+    "main.css": "/WSOA4157A/static/css/main.ac79c094.css",
+    "main.js": "/WSOA4157A/static/js/main.57228c4d.js",
     "static/js/787.21d17fcb.chunk.js": "/WSOA4157A/static/js/787.21d17fcb.chunk.js",
     "static/media/art10.jpg": "/WSOA4157A/static/media/art10.2da8d1f1cb9b56c8d8cf.jpg",
     "static/media/michael-benz-IgWNxx7paz4-unsplash.jpg": "/WSOA4157A/static/media/michael-benz-IgWNxx7paz4-unsplash.a6ae2bd66e10bcd09c15.jpg",
@@ -33,12 +33,12 @@
     "static/media/david6.jpg": "/WSOA4157A/static/media/david6.e8515fb1c5ca8207c822.jpg",
     "static/media/Logo2.png": "/WSOA4157A/static/media/Logo2.129e671d44eb54983bc4.png",
     "index.html": "/WSOA4157A/index.html",
-    "main.8f7280fc.css.map": "/WSOA4157A/static/css/main.8f7280fc.css.map",
-    "main.e3f6e9b7.js.map": "/WSOA4157A/static/js/main.e3f6e9b7.js.map",
+    "main.ac79c094.css.map": "/WSOA4157A/static/css/main.ac79c094.css.map",
+    "main.57228c4d.js.map": "/WSOA4157A/static/js/main.57228c4d.js.map",
     "787.21d17fcb.chunk.js.map": "/WSOA4157A/static/js/787.21d17fcb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f7280fc.css",
-    "static/js/main.e3f6e9b7.js"
+    "static/css/main.ac79c094.css",
+    "static/js/main.57228c4d.js"
   ]
 }
