@@ -20,6 +20,11 @@ html, body {
   background-size: cover;
 }
 
+.contactContent a {
+
+ font-size: 40px;
+}
+
 main {
   position: relative;
   width: 100%;

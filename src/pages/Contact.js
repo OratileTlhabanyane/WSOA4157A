@@ -8,7 +8,8 @@ import LinkedIn from "../components/LinkedIn"
 export default class Contact extends Component {
   render() {
     return (
-      <div className="contactContent"><h1 className="contactTitle">Contact</h1>
+      <div className="contactContent">
+        <h1 className="contactTitle">Contact</h1>
              <main>
 <div className="parchment"></div>
 <section className="contain">
