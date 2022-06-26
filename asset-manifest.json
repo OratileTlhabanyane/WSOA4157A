@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/WSOA4157A/static/css/main.2c45bc23.css",
-    "main.js": "/WSOA4157A/static/js/main.13de06fb.js",
+    "main.css": "/WSOA4157A/static/css/main.8f7280fc.css",
+    "main.js": "/WSOA4157A/static/js/main.e3f6e9b7.js",
     "static/js/787.21d17fcb.chunk.js": "/WSOA4157A/static/js/787.21d17fcb.chunk.js",
     "static/media/art10.jpg": "/WSOA4157A/static/media/art10.2da8d1f1cb9b56c8d8cf.jpg",
     "static/media/michael-benz-IgWNxx7paz4-unsplash.jpg": "/WSOA4157A/static/media/michael-benz-IgWNxx7paz4-unsplash.a6ae2bd66e10bcd09c15.jpg",
@@ -9,27 +9,36 @@
     "static/media/art2.jpg": "/WSOA4157A/static/media/art2.ef78e82d40db82bfaf7b.jpg",
     "static/media/art1.png": "/WSOA4157A/static/media/art1.cabd3391a35842a41646.png",
     "static/media/video.mp4": "/WSOA4157A/static/media/video.dc1dae62e1c22de8921b.mp4",
+    "static/media/oldwiref3.png": "/WSOA4157A/static/media/oldwiref3.fa731eddfa5a39c5e1a8.png",
+    "static/media/oldwiref2.png": "/WSOA4157A/static/media/oldwiref2.5529a7044818a1bd0d3c.png",
     "static/media/art6.jpg": "/WSOA4157A/static/media/art6.f0d7498ff3a70544c186.jpg",
     "static/media/art7.jpg": "/WSOA4157A/static/media/art7.456f9607f1eac64e4449.jpg",
+    "static/media/newwiref3.jpg": "/WSOA4157A/static/media/newwiref3.321a2c2bdbf086c5287b.jpg",
     "static/media/art4.jpg": "/WSOA4157A/static/media/art4.d17dfdf439c21b236fdb.jpg",
     "static/media/art8.jpg": "/WSOA4157A/static/media/art8.e4c10681189e86a636fc.jpg",
+    "static/media/newwiref2.jpg": "/WSOA4157A/static/media/newwiref2.aef9a753e252ff28b5c3.jpg",
+    "static/media/newwiref1.jpg": "/WSOA4157A/static/media/newwiref1.2983778cbf08a774c7cd.jpg",
     "static/media/art5.jpg": "/WSOA4157A/static/media/art5.763acf78d47d590a3561.jpg",
     "static/media/david3.jpg": "/WSOA4157A/static/media/david3.65e3fdaa0aa1de5fa9c3.jpg",
     "static/media/david4.jpg": "/WSOA4157A/static/media/david4.1a7b41eca4e1f021dd80.jpg",
+    "static/media/Option2.png": "/WSOA4157A/static/media/Option2.d2da5693f9cb8bd4b573.png",
     "static/media/david8.jpg": "/WSOA4157A/static/media/david8.06593f3f30febc6e07db.jpg",
     "static/media/david7.jpg": "/WSOA4157A/static/media/david7.31a886c2b467d64ce49b.jpg",
+    "static/media/Option3.png": "/WSOA4157A/static/media/Option3.e44b51ae8dbd023bc087.png",
     "static/media/david5.jpg": "/WSOA4157A/static/media/david5.87a81c22e537c3dbe747.jpg",
+    "static/media/oldwiref1.jpg": "/WSOA4157A/static/media/oldwiref1.e86217ae0218848d7dcc.jpg",
     "static/media/david1.jpg": "/WSOA4157A/static/media/david1.bef0d04257b1263ffbf9.jpg",
+    "static/media/Option1.png": "/WSOA4157A/static/media/Option1.62e05c5219ed5fb3b175.png",
     "static/media/david2.jpg": "/WSOA4157A/static/media/david2.5efdb2f9430aecad6f36.jpg",
     "static/media/david6.jpg": "/WSOA4157A/static/media/david6.e8515fb1c5ca8207c822.jpg",
     "static/media/Logo2.png": "/WSOA4157A/static/media/Logo2.129e671d44eb54983bc4.png",
     "index.html": "/WSOA4157A/index.html",
-    "main.2c45bc23.css.map": "/WSOA4157A/static/css/main.2c45bc23.css.map",
-    "main.13de06fb.js.map": "/WSOA4157A/static/js/main.13de06fb.js.map",
+    "main.8f7280fc.css.map": "/WSOA4157A/static/css/main.8f7280fc.css.map",
+    "main.e3f6e9b7.js.map": "/WSOA4157A/static/js/main.e3f6e9b7.js.map",
     "787.21d17fcb.chunk.js.map": "/WSOA4157A/static/js/787.21d17fcb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c45bc23.css",
-    "static/js/main.13de06fb.js"
+    "static/css/main.8f7280fc.css",
+    "static/js/main.e3f6e9b7.js"
   ]
 }
